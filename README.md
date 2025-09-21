@@ -8,7 +8,7 @@ This research project explores the intersection of graph theory and machine lear
 
 The main goal is to compare the effectiveness of different machine learning approaches against classical algorithms for solving the domination number problem:
 
-<<<<<<< HEAD
+
 - **Convolutional Neural Networks (CNN)**
 - **Graph Neural Networks (GNN)** 
 - **Classical Graph Algorithms (GraphCalc)**
@@ -26,7 +26,7 @@ The main goal is to compare the effectiveness of different machine learning appr
 ### Results and Visualizations
 - **`domination_number_prediction_comparison.png`** - Visualization comparing prediction accuracy across different approaches
 - **`domination_number_prediction_comparison_test_set.png`** - Test set results and performance metrics visualization
-=======
+
 * **Convolutional Neural Networks (CNN)**
 * **Graph Neural Networks (GNN)**
 * **Classical Graph Algorithms (GraphCalc)**
@@ -56,7 +56,7 @@ The main goal is to compare the effectiveness of different machine learning appr
 * **`domination_number_prediction_comparison.png`** - ER graph results visualization
 * **`domination_number_prediction_comparison_test_set.png`** - Test set performance
 * **`stability_number_prediction_comparison.png`** - Stability number analysis
->>>>>>> 3e662bd31012d514ba36dbbae8c44e6f1a1a822f
+
 
 ## Methodology
 
@@ -116,7 +116,7 @@ Potential extensions include:
 ---
 
 *This research demonstrates the potential of machine learning in solving classical graph theory problems and provides a foundation for further exploration in this interdisciplinary field.* 
-=======
+
 - Processes graph adjacency matrices as 2D images (64×64)
 - Learns to predict domination numbers from graph structural features
 
