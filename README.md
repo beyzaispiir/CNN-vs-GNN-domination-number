@@ -15,15 +15,15 @@ This repository contains a comprehensive comparison between **Graph Neural Netwo
 | Folder/File | Description |
 |-------------|-------------|
 | `main_code/` | 🎯 Main research code |
-| └── `domination_number_GNN_vs_CNN.ipynb` | Complete GNN vs CNN comparison |
+| `domination_number_GNN_vs_CNN.ipynb` | Complete GNN vs CNN comparison |
 | `helper_code/` | 🛠️ Supporting analysis code |
-| ├── `CNN_Combinatorial_Graph_Properties.ipynb` |  |
-| ├── `domination_number_CNN_vs_graphcalc.ipynb` |  |
-| └── `domination_number_GNN_vs_graphcalc.ipynb` |  |
+| `CNN_Combinatorial_Graph_Properties.ipynb` | |
+| `domination_number_CNN_vs_graphcalc.ipynb` | |
+| `domination_number_GNN_vs_graphcalc.ipynb` | |
 | `results/images/` | 📊 Results and visualizations |
-| ├── `domination_number_prediction_comparison.png` |  |
-| ├── `domination_number_prediction_comparison_test_set.png` |  |
-| └── `stability_number_prediction_comparison.png` |  |
+| `domination_number_prediction_comparison.png` | |
+| `domination_number_prediction_comparison_test_set.png` | |
+| `stability_number_prediction_comparison.png` | |
 | `README.md` | 📖 This file |
 
 
