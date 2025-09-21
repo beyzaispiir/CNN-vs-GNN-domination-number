@@ -27,7 +27,7 @@ This repository contains a comprehensive comparison between **Graph Neural Netwo
 │       ├── domination_number_prediction_comparison_test_set.png
 │       └── stability_number_prediction_comparison.png
 └── README.md                               # 📖 This file
-```text
+```
 
 ### **Quick Start Guide:**
 1. **Start here:** `main_code/domination number GNN vs CNN.ipynb` - Complete analysis
