@@ -14,14 +14,14 @@ This repository contains a comprehensive comparison between **Graph Neural Netwo
 
 | File / Folder | Description |
 |---------------|-------------|
-| 💻 [`main_code/domination_number_GNN_vs_CNN.ipynb`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/main_code/domination%20number%20GNN%20vs%20CNN.ipynb) | **Main research notebook** – complete comparison of GNN vs CNN for domination number prediction |
-| 📖 `README.md` | Main documentation file for the repository |
-| 🛠️ [`helper_code/CNN_Combinatorial_Graph_Properties.ipynb`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/CNN_Combinatorial_Graph_Properties.ipynb) | Supporting analysis – CNN applied to various graph properties, extending baseline experiments |
-| 🛠️ [`helper_code/domination_number_CNN_vs_graphcalc.ipynb`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20CNN%20vs%20graphcalc.ipynb) | Baseline comparison – CNN predictions vs exact solver (`graphcalc`) for domination number |
-| 🛠️ [`helper_code/domination_number_GNN_vs_graphcalc.ipynb`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20GNN%20vs%20graphcalc.ipynb) | Baseline comparison – GNN predictions vs exact solver (`graphcalc`) for domination number |
-| 📊 [`results/images/domination_number_prediction_comparison.png`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison.png) | Visualization – overall prediction accuracy comparison between models |
-| 📊 [`results/images/domination_number_prediction_comparison_test_set.png`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison_test_set.png) | Visualization – test set performance comparison (GNN vs CNN) |
-| 📊 [`results/images/stability_number_prediction_comparison.png`](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/stability_number_prediction_comparison.png) | Visualization – related experiment comparing stability number predictions |
+| 💻 [Main Notebook](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/main_code/domination%20number%20GNN%20vs%20CNN.ipynb) | Complete GNN vs CNN comparison |
+| 🛠️ [CNN Graph Properties](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/CNN_Combinatorial_Graph_Properties.ipynb) | Supporting analysis of CNN on various graph properties |
+| 🛠️ [CNN vs GraphCalc](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20CNN%20vs%20graphcalc.ipynb) | CNN predictions vs exact solver (`graphcalc`) |
+| 🛠️ [GNN vs GraphCalc](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20GNN%20vs%20graphcalc.ipynb) | GNN predictions vs exact solver (`graphcalc`) |
+| 📊 [Prediction Comparison](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison.png) | Overall accuracy comparison (CNN vs GNN) |
+| 📊 [Test Set Results](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison_test_set.png) | Performance on held-out test set |
+| 📊 [Stability Comparison](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/stability_number_prediction_comparison.png) | Stability number prediction comparison |
+
 
 
 
