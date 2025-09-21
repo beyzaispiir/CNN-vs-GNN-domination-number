@@ -11,6 +11,7 @@
 This repository contains a comprehensive comparison between **Graph Neural Networks (GNNs)** and **Convolutional Neural Networks (CNNs)** for predicting the **domination number** of graphs - an NP-hard combinatorial optimization problem. The study demonstrates that GNNs significantly outperform CNNs in both accuracy and efficiency, achieving **200x speedup** over exact algorithms while maintaining high prediction accuracy.
 
 ## 📁 Repository Structure
+## 📁 Repository Structure
 
 ```text
 .
@@ -27,7 +28,6 @@ This repository contains a comprehensive comparison between **Graph Neural Netwo
 │       └── stability_number_prediction_comparison.png
 └── README.md                               # 📖 This file
 
-```
 
 ### **Quick Start Guide:**
 1. **Start here:** `main_code/domination number GNN vs CNN.ipynb` - Complete analysis
