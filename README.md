@@ -128,22 +128,6 @@ This work demonstrates that **Graph Neural Networks are superior to CNNs** for g
 - Analysis of generalization across graph families
 - Real-world deployment on large-scale networks
 
-## 📄 **Citation**
-
-```bibtex
-@article{gnn_vs_cnn_domination,
-  title={Graph Neural Networks vs Convolutional Neural Networks for Domination Number Prediction},
-  author={Ispir, Beyza},
-  journal={NeurIPS 2025 MATH-AI Workshop},
-  year={2025}
-}
-```
-
-## 📞 **Contact**
-
-- **Author**: Beyza Ispir
-- **Repository**: [https://github.com/beyzaispiir/CNN-vs-GNN-domination-number](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number)
-- **Paper**: NeurIPS 2025 MATH-AI Workshop Submission
 
 ---
 
