@@ -6,29 +6,25 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.9+-red.svg)](https://pytorch.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+
 ## 🎯 **Project Overview**
 
 This repository contains a comprehensive comparison between **Graph Neural Networks (GNNs)** and **Convolutional Neural Networks (CNNs)** for predicting the **domination number** of graphs - an NP-hard combinatorial optimization problem. The study demonstrates that GNNs significantly outperform CNNs in both accuracy and efficiency, achieving **200x speedup** over exact algorithms while maintaining high prediction accuracy.
 
-## 📁 **Repository Structure**
+## 📁 Repository Contents
 
-```
-├── main_code/                          # 🎯 Main Research Code
-│   └── domination number GNN vs CNN.ipynb    # Complete GNN vs CNN comparison
-│
-├── helper_code/                        # 🔧 Supporting Analysis Code  
-│   ├── CNN_Combinatorial_Graph_Properties.ipynb
-│   ├── domination number CNN vs graphcalc.ipynb
-│   └── domination number GNN vs graphcalc.ipynb
-│
-├── results/                           # 📊 Results and Visualizations
-│   └── images/
-│       ├── domination_number_prediction_comparison.png
-│       ├── domination_number_prediction_comparison_test_set.png
-│       └── stability_number_prediction_comparison.png
-│
-└── README.md                          # 📖 This file
-```
+| File / Folder | Description |
+|---------------|-------------|
+| 💻 [Main Notebook](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/main_code/domination%20number%20GNN%20vs%20CNN.ipynb) | Complete GNN vs CNN comparison |
+| 🛠️ [CNN Graph Properties](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/CNN_Combinatorial_Graph_Properties.ipynb) | Supporting analysis of CNN on various graph properties |
+| 🛠️ [CNN vs GraphCalc](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20CNN%20vs%20graphcalc.ipynb) | CNN predictions vs exact solver (`graphcalc`) |
+| 🛠️ [GNN vs GraphCalc](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/helper_code/domination%20number%20GNN%20vs%20graphcalc.ipynb) | GNN predictions vs exact solver (`graphcalc`) |
+| 📊 [Prediction Comparison](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison.png) | Overall accuracy comparison (CNN vs GNN) |
+| 📊 [Test Set Results](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/domination_number_prediction_comparison_test_set.png) | Performance on held-out test set |
+| 📊 [Stability Comparison](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number/blob/main/results/images/stability_number_prediction_comparison.png) | Stability number prediction comparison |
+
+
+
 
 ### **Quick Start Guide:**
 1. **Start here:** `main_code/domination number GNN vs CNN.ipynb` - Complete analysis
@@ -128,22 +124,6 @@ This work demonstrates that **Graph Neural Networks are superior to CNNs** for g
 - Analysis of generalization across graph families
 - Real-world deployment on large-scale networks
 
-## 📄 **Citation**
-
-```bibtex
-@article{gnn_vs_cnn_domination,
-  title={Graph Neural Networks vs Convolutional Neural Networks for Domination Number Prediction},
-  author={Ispir, Beyza},
-  journal={NeurIPS 2025 MATH-AI Workshop},
-  year={2025}
-}
-```
-
-## 📞 **Contact**
-
-- **Author**: Beyza Ispir
-- **Repository**: [https://github.com/beyzaispiir/CNN-vs-GNN-domination-number](https://github.com/beyzaispiir/CNN-vs-GNN-domination-number)
-- **Paper**: NeurIPS 2025 MATH-AI Workshop Submission
 
 ---
 
